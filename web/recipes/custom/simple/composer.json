@@ -1,0 +1,15 @@
+{
+    "name": "jcandan/simple",
+    "description": "Applies the Standard install profile recipe and enables Admin Toolbar Tools",
+    "type": "drupal-custom-recipe",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "drupal/core": "^10.4",
+        "drupal/admin_toolbar": "^3.5"
+    }
+}

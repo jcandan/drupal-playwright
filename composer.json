@@ -12,20 +12,24 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "path",
+            "url": "web/recipes/custom/simple"
         }
     ],
     "require": {
         "composer/installers": "^2.0",
-        "drupal/admin_toolbar": "^3.5",
         "drupal/core-composer-scaffold": "^10.4",
         "drupal/core-project-message": "^10.4",
         "drupal/core-recommended": "^10.4",
-        "drush/drush": "^13.6"
+        "drush/drush": "^13.6",
+        "jcandan/simple": "*"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
@@ -68,6 +72,9 @@
             ],
             "web/profiles/custom/{$name}": [
                 "type:drupal-custom-profile"
+            ],
+            "web/recipes/custom/{$name}": [
+                "type:drupal-custom-recipes"
             ],
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"

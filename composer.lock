@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4252ff41ed7d3822eb5a20a6d0392053",
+    "content-hash": "f8000494155f33d30e3c86f0fa097486",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2200,6 +2200,24 @@
                 }
             ],
             "time": "2025-03-27T12:30:47+00:00"
+        },
+        {
+            "name": "jcandan/simple",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "web/recipes/custom/simple",
+                "reference": "d08c8985cb30305a9fc31a0125f253f8e4c9938c"
+            },
+            "require": {
+                "drupal/admin_toolbar": "^3.5",
+                "drupal/core": "^10.4"
+            },
+            "type": "drupal-custom-recipe",
+            "description": "Applies the Standard install profile recipe and enables Admin Toolbar Tools",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "laravel/prompts",
@@ -6030,7 +6048,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
