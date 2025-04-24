@@ -1,0 +1,7 @@
+name: "Simple"
+description: "Standard"
+type: "Site"
+recipes:
+  - core/recipes/standard
+install:
+  - admin_toolbar_tools
